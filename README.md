@@ -9,6 +9,7 @@ Public submission repository for **GSE-S512: Dynamic Stochastic Modeling**, focu
 ## Repository Structure
 
 - `Problem_Set_2_2026.ipynb` - main assignment notebook with code, outputs, and figures.
+- `requirements.txt` - Python dependencies used by the notebook.
 
 ## Assignment Coverage
 
@@ -28,17 +29,10 @@ Notebook metadata indicates:
 - Python 3.13.5
 - Jupyter kernel: `conda-base-py` (displayed as `Python [conda env:base]`)
 
-Packages used in the notebook include:
-- `numpy`
-- `pandas`
-- `matplotlib`
-- `statsmodels`
-- `fredapi`
-
-Install packages (example):
+Install dependencies:
 
 ```bash
-pip install numpy pandas matplotlib statsmodels fredapi
+pip install -r requirements.txt
 ```
 
 ## How To Run
@@ -51,4 +45,3 @@ pip install numpy pandas matplotlib statsmodels fredapi
 
 - This repo is organized as a clean submission artifact for Problem Set 2.
 - Outputs are stored in-notebook to preserve reproducibility of displayed results.
-
